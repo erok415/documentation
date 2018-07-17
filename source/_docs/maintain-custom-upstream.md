@@ -93,11 +93,11 @@ This test site will be used later for evaluating the Custom Upstream changes we 
      </div>
      <div role="tabpanel" class="tab-pane" id="d8">
      <pre><code class="command hljs">git fetch pantheon-drops-8
-    git rebase pantheon-drops-8/master</code></pre>
+    git merge pantheon-drops-8/master</code></pre>
      </div>
      <div role="tabpanel" class="tab-pane" id="d7">
      <pre><code class="command hljs">git fetch pantheon-drops-7
-    git rebase pantheon-drops-7/master</code></pre>
+    git merge pantheon-drops-7/master</code></pre>
      </div>
      </div><br>
 
@@ -184,11 +184,11 @@ If you receive the error that you have conflicts while updating core, the fastes
       </div>
       <div role="tabpanel" class="tab-pane" id="d8-xtheirs">
       <pre><code class="command hljs" data-lang="">git fetch pantheon-drops-8
-    git rebase pantheon-drops-8/master -Xtheirs</code></pre>
+    git merge pantheon-drops-8/master -Xtheirs</code></pre>
       </div>
       <div role="tabpanel" class="tab-pane" id="d7-xtheirs">
       <pre><code class="command hljs" data-lang="">git fetch pantheon-drops-7
-    git rebase pantheon-drops-7/master -Xtheirs</code></pre>
+    git merge pantheon-drops-7/master -Xtheirs</code></pre>
       </div>
     </div><br>
 
